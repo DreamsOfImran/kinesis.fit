@@ -132,8 +132,11 @@ const Footer = () => {
             <div className="col-lg-12">
               <div className="copyright text-center">
                 <p>
-                  Developed with ❤️ by{" "}
-                  <a href="https://dreamsofimran.in">DreamsOfImran</a>
+                  Developed with{" "}
+                  <span role="img" aria-label="love">
+                    ❤️
+                  </span>{" "}
+                  by <a href="https://dreamsofimran.in">DreamsOfImran</a>
                 </p>
               </div>
             </div>

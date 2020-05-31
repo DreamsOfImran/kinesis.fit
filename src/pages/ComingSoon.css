@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
@@ -6,9 +6,9 @@
 
 body {
   font-family: "Montserrat", sans-serif !important;
-}
+} */
 
-.header {
+.coming-soon {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@ body {
   background-position: center;
   position: relative;
 }
-.header:after {
+.coming-soon:after {
   display: block;
   content: "";
   position: absolute;
@@ -30,86 +30,86 @@ body {
   z-index: 0;
   background-color: rgba(34, 34, 34, 0.5);
 }
-.header .content {
+.coming-soon .content {
   position: relative;
   z-index: 1;
 }
-.header .content h1 {
+.coming-soon .content h1 {
   color: #fff;
   font-size: 28px;
   font-weight: 900;
 }
-.header .content h1 span {
+.coming-soon .content h1 span {
   font-weight: 400;
 }
 @media screen and (min-width: 480px) {
-  .header .content h1 {
+  .coming-soon .content h1 {
     font-size: 36px;
   }
 }
 @media screen and (min-width: 768px) {
-  .header .content h1 {
+  .coming-soon .content h1 {
     font-size: 42px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .header .content h1 {
+  .coming-soon .content h1 {
     font-size: 56px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .header .content h1 {
+  .coming-soon .content h1 {
     font-size: 72px;
   }
 }
-.header .content h2 {
+.coming-soon .content h2 {
   color: #fff;
   font-size: 42px;
   font-weight: 900;
   margin: 30px 0px;
 }
 @media screen and (min-width: 480px) {
-  .header .content h2 {
+  .coming-soon .content h2 {
     font-size: 56px;
   }
 }
 @media screen and (min-width: 768px) {
-  .header .content h2 {
+  .coming-soon .content h2 {
     font-size: 72px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .header .content h2 {
+  .coming-soon .content h2 {
     font-size: 96px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .header .content h2 {
+  .coming-soon .content h2 {
     font-size: 128px;
   }
 }
-.header .content .countdown {
+.coming-soon .content .countdown {
   color: #fff;
   font-size: 36px;
   font-weight: 400;
 }
 @media screen and (min-width: 480px) {
-  .header .content .countdown {
+  .coming-soon .content .countdown {
     font-size: 42px;
   }
 }
 @media screen and (min-width: 768px) {
-  .header .content .countdown {
+  .coming-soon .content .countdown {
     font-size: 56px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .header .content .countdown {
+  .coming-soon .content .countdown {
     font-size: 72px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .header .content .countdown {
+  .coming-soon .content .countdown {
     font-size: 88px;
   }
 }

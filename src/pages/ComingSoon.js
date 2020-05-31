@@ -39,13 +39,12 @@ const ComingSoon = () => {
   });
   return (
     <header
-      class="header"
+      class="coming-soon"
       style={{ backgroundImage: "url(assets/images/background.jpg)" }}
     >
       <div class="content">
         <h1>
-          KINESIS
-          <span>INSTITUTE</span>
+          KINESIS <span>INSTITUTE</span>
         </h1>
         <h2>COMING SOON</h2>
         <div class="countdown">{time}</div>
