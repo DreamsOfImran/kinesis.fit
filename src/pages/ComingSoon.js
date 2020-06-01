@@ -39,15 +39,15 @@ const ComingSoon = () => {
   });
   return (
     <header
-      class="coming-soon"
+      className="coming-soon"
       style={{ backgroundImage: "url(assets/images/background.jpg)" }}
     >
-      <div class="content">
+      <div className="content">
         <h1>
           KINESIS <span>INSTITUTE</span>
         </h1>
         <h2>COMING SOON</h2>
-        <div class="countdown">{time}</div>
+        <div className="countdown">{time}</div>
       </div>
     </header>
   );
