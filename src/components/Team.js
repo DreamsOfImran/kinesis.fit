@@ -93,7 +93,7 @@ const Team = () => {
               </div>
               <div className="team-content">
                 <h4 className="team-name">
-                  <a href="#">Suhail Ahmed</a>
+                  <a href="#">Akshaya</a>
                 </h4>
                 <span className="sub-title">No-one</span>
                 <ul className="social mt-25">

@@ -9,8 +9,7 @@ const NavBar = () => {
           <div className="col-lg-12">
             <nav className="navbar navbar-expand-lg">
               <a className="navbar-brand" href="#">
-                {/* <img src="assets/images/logo.png" alt="Logo" /> */}
-                KINESIS INSTITUTE (LOGO)
+                <img src="assets/images/logo.png" alt="Logo" />
               </a>
               <button
                 className="navbar-toggler"
