@@ -43,7 +43,7 @@ const Header = () => {
                   data-wow-delay="2.3s"
                   href="#contact"
                 >
-                  Redefine Your Moments
+                  Redefine Your Movements
                 </a>
               </div>
             </div>
