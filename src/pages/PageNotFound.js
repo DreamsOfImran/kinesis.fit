@@ -10,8 +10,9 @@ const PageNotFound = () => {
       }}
     >
       <div class="content">
+        <h2>404</h2>
         <h1>
-          Oops, <span>Page Not Found</span>
+          Oops, <span>You've Lost</span>
         </h1>
         <Link to="/" className="main-btn mt-35">
           Back to Home
