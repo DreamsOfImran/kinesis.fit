@@ -40,7 +40,7 @@ const ComingSoon = () => {
   return (
     <header
       className="coming-soon"
-      style={{ backgroundImage: "url(assets/images/background.jpg)" }}
+      style={{ backgroundImage: "url(/assets/images/background.jpg)" }}
     >
       <div className="content">
         <h1>

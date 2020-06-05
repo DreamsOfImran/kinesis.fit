@@ -1099,6 +1099,7 @@ p {
 .single-services .services-content .services-title {
   font-size: 22px;
   font-weight: 600;
+  color: #121619;
   font-family: barlow, sans-serif;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;

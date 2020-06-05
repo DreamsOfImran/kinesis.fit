@@ -1,5 +1,6 @@
 import React from "react";
 import { serviceShortData } from "../utils/data";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -25,7 +26,12 @@ const Services = () => {
                   <i className={"lni lni-" + service.icon}></i>
                 </div>
                 <div className="services-content mt-15">
-                  <h4 className="services-title">{service.title}</h4>
+                  <Link
+                    className="services-title"
+                    to={"/service/" + service.slug}
+                  >
+                    {service.title}
+                  </Link>
                   <p className="mt-20">{service.description}</p>
                 </div>
               </div>

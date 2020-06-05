@@ -6,7 +6,7 @@ const PageNotFound = () => {
     <header
       class="coming-soon"
       style={{
-        backgroundImage: "url(assets/images/map/map-bg2.jpg)",
+        backgroundImage: "url(/assets/images/map/map-bg2.jpg)",
       }}
     >
       <div class="content">

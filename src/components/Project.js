@@ -19,7 +19,7 @@ const Project = () => {
           <div className="col-lg-4">
             <div className="single-project">
               <div className="project-image">
-                <img src="assets/images/project/p-1.jpg" alt="Project" />
+                <img src="/assets/images/project/p-1.jpg" alt="Project" />
               </div>
               <div className="project-content">
                 <a className="project-title" href="#">
@@ -31,7 +31,7 @@ const Project = () => {
           <div className="col-lg-4">
             <div className="single-project">
               <div className="project-image">
-                <img src="assets/images/project/p-2.jpg" alt="Project" />
+                <img src="/assets/images/project/p-2.jpg" alt="Project" />
               </div>
               <div className="project-content">
                 <a className="project-title" href="#">
@@ -43,7 +43,7 @@ const Project = () => {
           <div className="col-lg-4">
             <div className="single-project">
               <div className="project-image">
-                <img src="assets/images/project/p-3.jpg" alt="Project" />
+                <img src="/assets/images/project/p-3.jpg" alt="Project" />
               </div>
               <div className="project-content">
                 <a className="project-title" href="#">
@@ -55,7 +55,7 @@ const Project = () => {
           <div className="col-lg-4">
             <div className="single-project">
               <div className="project-image">
-                <img src="assets/images/project/p-4.jpg" alt="Project" />
+                <img src="/assets/images/project/p-4.jpg" alt="Project" />
               </div>
               <div className="project-content">
                 <a className="project-title" href="#">
@@ -67,7 +67,7 @@ const Project = () => {
           <div className="col-lg-4">
             <div className="single-project">
               <div className="project-image">
-                <img src="assets/images/project/p-5.jpg" alt="Project" />
+                <img src="/assets/images/project/p-5.jpg" alt="Project" />
               </div>
               <div className="project-content">
                 <a className="project-title" href="#">
@@ -79,7 +79,7 @@ const Project = () => {
           <div className="col-lg-4">
             <div className="single-project">
               <div className="project-image">
-                <img src="assets/images/project/p-6.jpg" alt="Project" />
+                <img src="/assets/images/project/p-6.jpg" alt="Project" />
               </div>
               <div className="project-content">
                 <a className="project-title" href="#">
@@ -91,7 +91,7 @@ const Project = () => {
           <div className="col-lg-4">
             <div className="single-project">
               <div className="project-image">
-                <img src="assets/images/project/p-7.jpg" alt="Project" />
+                <img src="/assets/images/project/p-7.jpg" alt="Project" />
               </div>
               <div className="project-content">
                 <a className="project-title" href="#">

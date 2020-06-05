@@ -5,16 +5,16 @@ const Header = () => {
   return (
     <header id="home" className="header-area pt-100">
       <div className="shape header-shape-one">
-        <img src="assets/images/banner/shape/shape-1.png" alt="shape" />
+        <img src="/assets/images/banner/shape/shape-1.png" alt="shape" />
       </div>
       <div className="shape header-shape-tow animation-one">
-        <img src="assets/images/banner/shape/shape-2.png" alt="shape" />
+        <img src="/assets/images/banner/shape/shape-2.png" alt="shape" />
       </div>
       <div className="shape header-shape-three animation-one">
-        <img src="assets/images/banner/shape/shape-3.png" alt="shape" />
+        <img src="/assets/images/banner/shape/shape-3.png" alt="shape" />
       </div>
       <div className="shape header-shape-fore">
-        <img src="assets/images/banner/shape/shape-4.png" alt="shape" />
+        <img src="/assets/images/banner/shape/shape-4.png" alt="shape" />
       </div>
       <NavBar />
       <div className="header-banner d-flex align-items-center">
@@ -52,7 +52,7 @@ const Header = () => {
         <div
           className="banner-image bg_cover"
           style={{
-            backgroundImage: "url(assets/images/banner/banner-image.jpg)",
+            backgroundImage: "url(/assets/images/banner/banner-image.jpg)",
           }}
         ></div>
       </div>

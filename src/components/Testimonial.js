@@ -5,20 +5,20 @@ const Testimonial = () => {
   return (
     <section id="testimonial" className="testimonial-area pt-130 pb-130">
       <div className="shape shape-one">
-        <img src="assets/images/testimonial/shape.png" alt="testimonial" />
+        <img src="/assets/images/testimonial/shape.png" alt="testimonial" />
       </div>
       <div className="shape shape-tow">
-        <img src="assets/images/testimonial/shape.png" alt="testimonial" />
+        <img src="/assets/images/testimonial/shape.png" alt="testimonial" />
       </div>
       <div className="shape shape-three">
-        <img src="assets/images/testimonial/shape.png" alt="testimonial" />
+        <img src="/assets/images/testimonial/shape.png" alt="testimonial" />
       </div>
       <div className="container">
         <div
           className="testimonial-bg bg_cover pt-80 pb-80"
           style={{
             backgroundImage:
-              "url(assets/images/testimonial/testimonial-bg.jpg)",
+              "url(/assets/images/testimonial/testimonial-bg.jpg)",
           }}
         >
           <div className="row">

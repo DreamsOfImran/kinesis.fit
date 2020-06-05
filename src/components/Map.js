@@ -18,7 +18,7 @@ const Map = () => {
       </div>
       <div
         className="map-bg bg_cover d-none d-lg-block"
-        style={{ backgroundImage: "url(assets/images/map/map-bg2.jpg)" }}
+        style={{ backgroundImage: "url(/assets/images/map/map-bg2.jpg)" }}
       ></div>
     </section>
   );
