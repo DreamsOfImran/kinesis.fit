@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "../components/Header";
 import About from "../components/About";
-import Service from "../components/Service";
+import Services from "../components/Services";
 import Project from "../components/Project";
 import Team from "../components/Team";
 import Testimonial from "../components/Testimonial";
@@ -34,7 +34,7 @@ const Home = () => {
 
       <About />
 
-      <Service />
+      <Services />
 
       <Project />
 

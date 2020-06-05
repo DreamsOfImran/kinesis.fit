@@ -1,5 +1,6 @@
 /* eslint-disable no-script-url,jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -8,9 +9,9 @@ const NavBar = () => {
         <div className="row">
           <div className="col-lg-12">
             <nav className="navbar navbar-expand-lg">
-              <a className="navbar-brand" href="#">
+              <Link className="navbar-brand" to="/">
                 <img src="assets/images/logo.png" alt="Logo" />
-              </a>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -29,7 +30,7 @@ const NavBar = () => {
                 id="navbarSupportedContent"
               >
                 <ul id="nav" className="navbar-nav ml-auto">
-                  <li className="nav-item active">
+                  <li className="nav-item">
                     <a className="page-scroll" href="#home">
                       Home
                     </a>
