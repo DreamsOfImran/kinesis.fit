@@ -25,7 +25,10 @@ const Testimonial = () => {
             <div className="col-xl-4 offset-xl-7 col-lg-5 offset-lg-6 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
               <div className="testimonial-active">
                 {testimonialData.map((testimonial) => (
-                  <div className="single-testimonial text-center">
+                  <div
+                    className="single-testimonial text-center"
+                    key={testimonial.id}
+                  >
                     <div className="testimonial-image">
                       <img src={testimonial.image} alt="Testimonial" />
                       <div className="quota">
