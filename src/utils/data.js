@@ -138,4 +138,31 @@ const TeamShortData = [
   },
 ];
 
-export { serviceShortData, TeamShortData };
+const testimonialData = [
+  {
+    id: 1,
+    name: "Dawood",
+    position: "Random Patient",
+    image: "assets/images/testimonial/t-1.jpg",
+    content:
+      "Lorem ipsum dolor sit amet, ectetur adipiscing elit. Phasellus vel erat ces, commodo lectus eu, finibus diam. mipsum dolor sit amet, ectetur.",
+  },
+  {
+    id: 2,
+    name: "Raja",
+    position: "SRU Professor",
+    image: "assets/images/testimonial/t-2.jpg",
+    content:
+      "Lorem ipsum dolor sit amet, ectetur adipiscing elit. Phasellus vel erat ces, commodo lectus eu, finibus diam. mipsum dolor sit amet, ectetur.",
+  },
+  {
+    id: 3,
+    name: "Imran",
+    position: "CEO, DreamsOfImran",
+    image: "assets/images/testimonial/t-3.jpg",
+    content:
+      "Lorem ipsum dolor sit amet, ectetur adipiscing elit. Phasellus vel erat ces, commodo lectus eu, finibus diam. mipsum dolor sit amet, ectetur.",
+  },
+];
+
+export { serviceShortData, TeamShortData, testimonialData };

@@ -1,4 +1,5 @@
 import React from "react";
+import { testimonialData } from "../utils/data";
 
 const Testimonial = () => {
   return (
@@ -23,66 +24,23 @@ const Testimonial = () => {
           <div className="row">
             <div className="col-xl-4 offset-xl-7 col-lg-5 offset-lg-6 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
               <div className="testimonial-active">
-                <div className="single-testimonial text-center">
-                  <div className="testimonial-image">
-                    <img
-                      src="assets/images/testimonial/t-1.jpg"
-                      alt="Testimonial"
-                    />
-                    <div className="quota">
-                      <i className="lni lni-quotation"></i>
+                {testimonialData.map((testimonial) => (
+                  <div className="single-testimonial text-center">
+                    <div className="testimonial-image">
+                      <img src={testimonial.image} alt="Testimonial" />
+                      <div className="quota">
+                        <i className="lni lni-quotation"></i>
+                      </div>
+                    </div>
+                    <div className="testimonial-content mt-20">
+                      <p>{testimonial.content}</p>
+                      <h5 className="testimonial-name mt-15">
+                        {testimonial.name}
+                      </h5>
+                      <span className="sub-title">{testimonial.position}</span>
                     </div>
                   </div>
-                  <div className="testimonial-content mt-20">
-                    <p>
-                      Lorem ipsum dolor sit amet, ectetur adipiscing elit.
-                      Phasellus vel erat ces, commodo lectus eu, finibus diam. m
-                      ipsum dolor sit amet, ectetur.
-                    </p>
-                    <h5 className="testimonial-name mt-15">Dawood</h5>
-                    <span className="sub-title">Random Patient</span>
-                  </div>
-                </div>
-                <div className="single-testimonial text-center">
-                  <div className="testimonial-image">
-                    <img
-                      src="assets/images/testimonial/t-2.jpg"
-                      alt="Testimonial"
-                    />
-                    <div className="quota">
-                      <i className="lni lni-quotation"></i>
-                    </div>
-                  </div>
-                  <div className="testimonial-content mt-20">
-                    <p>
-                      Lorem ipsum dolor sit amet, ectetur adipiscing elit.
-                      Phasellus vel erat ces, commodo lectus eu, finibus diam. m
-                      ipsum dolor sit amet, ectetur.
-                    </p>
-                    <h5 className="testimonial-name mt-15">Raja</h5>
-                    <span className="sub-title">SRU Proferssor</span>
-                  </div>
-                </div>
-                <div className="single-testimonial text-center">
-                  <div className="testimonial-image">
-                    <img
-                      src="assets/images/testimonial/t-3.jpg"
-                      alt="Testimonial"
-                    />
-                    <div className="quota">
-                      <i className="lni lni-quotation"></i>
-                    </div>
-                  </div>
-                  <div className="testimonial-content mt-20">
-                    <p>
-                      Lorem ipsum dolor sit amet, ectetur adipiscing elit.
-                      Phasellus vel erat ces, commodo lectus eu, finibus diam. m
-                      ipsum dolor sit amet, ectetur.
-                    </p>
-                    <h5 className="testimonial-name mt-15">Imran</h5>
-                    <span className="sub-title">CEO, Some Company</span>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
